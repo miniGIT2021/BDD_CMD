@@ -8,5 +8,5 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = {"src/test/java/Feature"},
         glue = {"Steps"},plugin ={"pretty","html:target/HtmlReports"},
         dryRun=false)
-public class TestRunner {
+public class   TestRunner {
 }
