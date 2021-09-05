@@ -34,7 +34,7 @@ public class Login {
 
     @When("^user enter invalid username and password$")
     public void user_enter_invalid_username_and_password() {
-
+        System.out.println("user_enter_invalid_username_and_password()");
     }
 
     @Then("^error message is displayed - Invalid Credentials$")
