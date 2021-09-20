@@ -38,7 +38,7 @@ public class Login {
     }
 
     @Then("^error message is displayed - Invalid Credentials$")
-    public void error_message_is_displayed_Invalid_Credentials(){
+    public void error_message_is_displayed_Invalid_Credentials()\-{
 
     }
 }
